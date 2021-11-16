@@ -37,3 +37,24 @@ DB_NAME = 'rain'
 ```
 
 run [app.py](app.py)
+
+in another terminal
+
+```bash
+# Start GraphQL IDE
+$ openapi-to-graphql -u http://localhost:8080/rain-api/v2 openapi/rain-api.yaml
+```
+
+GraphQL IDE
+
+- GraphQL query
+- Query result
+- Schema documentation
+
+## Link
+
+run [app-with-links.py](app-with-links.py)
+
+```bash
+$ openapi-to-graphql -u http://localhost:8080/rain-api/v2 openapi/rain-api-with-links.yaml
+```
